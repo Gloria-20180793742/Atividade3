@@ -6,28 +6,31 @@
 <meta charset="UTF-8">
 <title>Página Inicial</title>
 </head>
-<style>vermelho{background-color: red;}</style><body>
-	
-	<table border="1">
-					
-					<tr><td colspan="2"><%@include file="header.jsp"%></td></tr>
-					<tr>
-						<td><%@include file="menu.jsp"%></td>
-						<td rowspan="2"><%@include file="body.jsp"%></td>
-					</tr>
-					<tr>
-						<td>
-						<a href="OlaMundo">Exercício 1 - Olá mundo</a><br>
-						<a href="exercicio2.jsp">Exercício 2 - Bemvindo</a><br>
-						<a href="randomico.jsp">Exercício 3 - randômico</a><br>
-						<a href="ServletRandomico">Exercício 4 - ServletRandomico</a><br>
-						<a href="jogoDaMega.jsp">Exercício 5A - Megasena com Servlet</a><br>
-						<a href="jogoDaMega2.jsp">Exercício 5B - Megasena com JSP</a><br>
-						<a href="index.jsp">Exercício 6 - Template JSP</a><br>
-						<a href="blog.jsp">Exercício 7 - Template JSP</a><br>
-						</td>
-					</tr>
-					
-	</table>
+<style>
+vermelho {
+	background-color: red;
+}
+</style>
+<body>
+
+
+
+	<a href="OlaMundo">Exercício 1 - Olá mundo</a>
+	<br>
+	<a href="exercicio2.jsp">Exercício 2 - Bemvindo</a>
+	<br>
+	<a href="randomico.jsp">Exercício 3 - randômico</a>
+	<br>
+	<a href="ServletRandomico">Exercício 4 - ServletRandomico</a>
+	<br>
+	<a href="jogoDaMega.jsp">Exercício 5A - Megasena com Servlet</a>
+	<br>
+	<a href="jogoDaMega2.jsp">Exercício 5B - Megasena com JSP</a>
+	<br>
+	<a href="exercicio6.jsp">Exercício 6 - Template JSP</a>
+	<br>
+	<a href="blog.jsp">Exercício 7 - Template JSP</a>
+	<br>
+
 </body>
 </html>
