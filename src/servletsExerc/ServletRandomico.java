@@ -22,7 +22,7 @@ public class ServletRandomico extends HttpServlet {
 		String numero = Integer.toString(geradorDeNumeros.nextInt(100));
 			
 		PrintWriter writer = response.getWriter();
-		writer.print("<html><body><h1>Número randômico:</h1>");
+		writer.print("<html><body><h1>Numero randomico:</h1>");
 		writer.print("<h2>"+numero+"</h2></body></html>");
 	}
 }
