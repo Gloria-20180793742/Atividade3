@@ -24,7 +24,7 @@
 						<a href="jogoDaMega.jsp">Exercício 5A - Megasena com Servlet</a><br>
 						<a href="jogoDaMega2.jsp">Exercício 5B - Megasena com JSP</a><br>
 						<a href="index.jsp">Exercício 6 - Template JSP (Página index)</a><br>
-						<a href="blog.jsp">Exercício 7 - Template JSP</a><br>
+						<a href="blog.jsp">Exercício 7 - Miniblog</a><br>
 						</td>
 					</tr>
 					
